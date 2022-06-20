@@ -1,0 +1,20 @@
+@use '../util' as u;
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__logo {
+    }
+
+    &__menu {
+        list-style-type: none;
+        display: flex;
+
+        li {
+            padding-inline: u.rem(15);
+
+        }
+    }
+}
